@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+#wrapper {
+    display: grid;
+    grid-template-columns: minmax(0,1fr) repeat(6, minmax(0,175px)) minmax(0,1fr);
+}
+header {
+    grid-column: 2 / 8;
+    grid-row: 1 / 2;
+}
+main {
+    grid-row: 2 / 3;
+    grid-column: 2 / 8;
+}
+footer {
+    grid-row: 3 / 4;
+    grid-column: 2 / 8;
+}
+nav div ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+nav div ul li a {
+    color: black;
+    text-decoration: none;
+}
+main>img {
+    background-image: url(images/randomperson.jpg);
+    width: 100%;
+    height: auto;
+}
+footer {
+    text-align: center;
+}
+#logo {
+    background-image: url(images/logo.svg);
+    width: 100%;
+    height: auto;
+}
