@@ -60,8 +60,12 @@ footer {
     margin-top: 1rem;
 }
 .logo {
-    width: 50%;
+    width: 40%;
     height: auto;
+}
+header ul li a {
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 footer img.logo {
     width: 10%;
