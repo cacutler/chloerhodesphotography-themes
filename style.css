@@ -19,6 +19,9 @@ header nav {
     background-color: rgba(255, 192, 203, 0.7);
     padding: 2rem;
 }
+.mobile {
+    display: none;
+}
 main {
     grid-row: 2 / 3;
     grid-column: 2 / 8;
@@ -97,9 +100,61 @@ footer img.logo {
 .right-footer h4 {
     margin-bottom: 1.5rem;
 }
-@media screen and (max-width: 960px) {
+.mobile .navbar { /* Hamburger Menu Styles - CSS only */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+.hamburger-checkbox {
+    display: none; /* Hide the checkbox */
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+    z-index: 10;
+}
+.hamburger-menu span {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+.hamburger-checkbox:checked ~ .nav-links { /* The magic happens here - when checkbox is checked, show the menu */
+    display: flex;
+}
+@media screen and (max-width: 600px) {
     #wrapper {
         display: flex;
         flex-direction: column;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .hamburger-menu {
+        display: flex;
+    }
+    .mobile ul {
+        flex-direction: column;
+    }
+    .mobile ul li {
+        margin: 0.8rem 0;
     }
 }

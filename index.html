@@ -13,14 +13,33 @@
         <div id="wrapper">
             <header>
                 <nav>
-                    <div>
+                    <div class="desktop">
                         <img src="images/logo.svg" alt="logo" class="logo">
                         <ul>
                             <li><a href="#">Portfolio</a></li>
                             <li><a href="#">About Me</a></li>
-                            <li class="current-menu-item"><a href="#"><img class="logo" src="images/logo.svg" alt="logo"></a></li>
+                            <li><a href="#"><img class="logo" src="images/logo.svg" alt="logo"></a></li>
                             <li><a href="#">Pricing</a></li>
                             <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile">
+                        <img src="images/logo.svg" alt="logo" class="logo">
+                        <div class="navbar">
+                            <input type="checkbox" id="hamburger-toggle" class="hamburger-checkbox">
+                            <label for="hamburger-toggle" class="hamburger-menu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+                        </div>
+                        <ul class="nav-links">
+                            <li><img src="images/logo.svg" alt="logo" class="logo"></li>
+                            <li><a href='#'>Home</a></li>
+                            <li><a href='#'>Portfolio</a></li>
+                            <li><a href='#'>Pricing</a></li>
+                            <li><a href='#'>Contact</a></li>
+                            <li><a href='#'>About Me</a></li>
                         </ul>
                     </div>
                 </nav>
