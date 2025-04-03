@@ -97,3 +97,9 @@ footer img.logo {
 .right-footer h4 {
     margin-bottom: 1.5rem;
 }
+@media screen and (max-width: 960px) {
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
