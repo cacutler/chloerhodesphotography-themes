@@ -184,11 +184,17 @@ header ul li a {
         display: flex;
         flex-direction: column;
     }
-    .desktop {
+    .footer-copyright {
         display: none;
     }
-    .mobile {
-        display: block;
+    .footer-social {
+        display: none;
+    }
+    .footer-contact {
+        display: none;
+    }
+    .footer-logo {
+        display: none;
     }
     .hamburger-menu {
         display: flex;
@@ -199,14 +205,12 @@ header ul li a {
     .mobile ul li {
         margin: 0.8rem 0;
     }
-    footer div nav, .right-footer, .left-footer, footer img {
-        display: none;
-    }
     .mobile-footer {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
-    .mobile-footer p:first-of-type {
-        margin-bottom: 0.25rem;
+    .mobile-footer p {
+        flex-direction: row;
     }
     footer {
         padding-bottom: 1rem;
