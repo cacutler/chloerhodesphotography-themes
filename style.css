@@ -1,3 +1,16 @@
+/*
+Theme Name: Chloe Rhodes Photography
+Text Domain: Chloe Rhodes Photography
+Version: 0.1
+Description:
+Tags:
+Author: Alex Cutler and Kyleigh Hill
+Author URI:
+Theme URI: 
+*/
+.wp-block-cover {
+    height:auto !important;
+}
 * {
     margin: 0;
     padding: 0;
@@ -44,7 +57,7 @@ footer {
     grid-column: 1 / 9;
     text-align: center;
     background-color: rgba(255, 192, 203, 0.7);
-    padding: 1rem 3rem 3rem;
+    padding: 2rem 3rem;
     margin-top: 1rem;
 }
 #logo {
@@ -55,42 +68,70 @@ header ul li a {
     font-weight: bold;
     font-size: 1.5rem;
 }
-footer img {
-    width: 10%;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-}
-.nav-footer div ul {
+.footer-container {
+    padding-top: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
-    list-style: none;
-    justify-content: space-around;
-    border-top: 1px solid black;
-    margin-top: 1rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    padding-top: 2.5rem;
-    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-.nav-footer div ul li a {
-    color: black;
+.footer-contact {
+    flex: 1;
+    text-align: left;
+}
+.footer-contact h3 {
+    margin-bottom: 1rem;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.footer-contact h3 {
+    margin-bottom: 1rem;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.footer-contact a {
+    color: blue;
     text-decoration: none;
+    display: block;
 }
-.left-footer {
-    float: left;
-    text-align: left;
-    margin-top: 1.5rem;
+.footer-logo {
+    flex: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.left-footer h4 {
+.footer-logo img {
+    width: 160px;
+    height: auto;
+}
+.footer-menu {
+    width: 100%;
+}
+.footer-menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px black solid;
+    padding: 1rem 0;
+    margin: 2rem 0;
+}
+.footer-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 0 1.5rem;
+}
+.footer-copyright {
+    flex: 1;
+    text-align: right;
+}
+.footer-copyright h3 {
+    font-size: 18px;
     margin-bottom: 1rem;
-}
-.right-footer {
-    margin-top: 1.5rem;
-    margin-right: 0.5rem;
-    float: right;
-    text-align: left;
-}
-.right-footer h4 {
-    margin-bottom: 1.5rem;
 }
 .mobile .navbar { /* Hamburger Menu Styles - CSS only */
     display: flex;
