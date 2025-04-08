@@ -7,7 +7,7 @@
             <p>Based in Salt Lake City, Utah</p>
         </div>
         <div class="footer-logo">
-            <img id="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="logo">
+            <img id="logo" src="<?php echo get_template_directory_uri(); ?>/images/ChloeRhodesPhotography.svg" alt="logo">
             <nav class="footer-navigation">
                 <div class="footer-menu">
                     <ul>

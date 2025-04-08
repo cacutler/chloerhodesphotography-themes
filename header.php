@@ -11,7 +11,7 @@
 <div id="wrapper">
 <header>
     <nav>
-        <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/Chloe Rhodes Photography.svg" alt="Chloe Rhodes Photography Logo" class="logo2"></a>
+        <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/ChloeRhodesPhotography.svg" alt="Chloe Rhodes Photography Logo" class="logo2"></a>
 
         <input type="checkbox" class="menu-btn" id="menu-toggle">
         <label for="menu-toggle" class="menu-icon">
@@ -21,7 +21,7 @@
             <ul class="menu" style="text-align: center;">
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">About Me</a></li>
-                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Chloe Rhodes Photography.svg" alt="Chloe Rhodes Photography Logo" class="logo"></a>
+                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/ChloeRhodesPhotography.svg" alt="Chloe Rhodes Photography Logo" class="logo"></a>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
