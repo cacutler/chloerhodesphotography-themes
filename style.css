@@ -376,3 +376,240 @@ header .menu-icon {
     }
     
 }
+
+/* 
+header nav div ul li a{
+	color: white;
+}
+a.button, .wp-block-button__link, .wpcf7-submit {
+  background-color: #65AD79;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+}
+h2, .wp-block-group {
+	margin-left: 2rem;
+}
+li {
+	list-style-type: none;
+}
+header nav {
+	background-color: rgb(103 145 182 / 86%);
+}
+footer {
+	background-color: rgb(103 145 182 / 86%);
+}
+.footer-menu a{
+	color:white;
+}
+.footer-menu ul {
+	border-top: 1px #fff solid;
+}
+.footer-container {
+    color: white;
+}
+.footer-contact a{
+	color: palegreen
+}
+.footer-social a {
+    color: white;
+}
+.chloe-photo {
+	float: left;
+	margin-right: 4rem;
+	margin-left: 2rem;
+}
+#wpcf7-f174-p24-o1 {
+    background-color: rgba(103, 145, 182, 0.86);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    max-width: 500px;
+    margin: 1.5rem auto;
+    font-family: 'Inria Serif', serif;
+    color: #fff;
+}
+#wpcf7-f174-p24-o1 label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+#wpcf7-f174-p24-o1 input, #wpcf7-f174-p24-o1 select, #wpcf7-f174-p24-o1 textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 0.95rem;
+    font-family: inherit;
+    background-color: #fff;
+    color: #333;
+}
+#wpcf7-f174-p24-o1 textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+#wpcf7-f174-p24-o1 input[type="submit"] {
+    background-color: #fff;
+    color: rgb(103, 145, 182);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#wpcf7-f174-p24-o1 input[type="submit"]:hover {
+    background-color: #f0f0f0;
+}
+.about-me-context {
+	padding: 2rem;
+	margin-left: 1rem;
+}
+.about .wp-block-image {
+	float: left;
+	margin-right: 3rem;
+	margin-bottom: 3rem;
+	margin-left: 2.5rem;
+}
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about-text {
+    margin-left: 30px;
+}
+.featured-shoots {
+	clear: both;
+}
+.featured-shoots>div>p:first-of-type {
+	text-align: center;
+	font-size: 1.5em;
+}
+.featured-shoots {
+	text-align: center;
+}
+.portfolio{
+    clear: both;
+}
+.testimonals {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.testimonals .wp-block-image {
+	float: left;
+	width: 50%;
+	margin-right: 2rem;
+}
+.testimonals p:first-of-type {
+	font-size: 2.5em;
+}
+.testimonals {
+	clear: both;
+}
+div.wpcf7 {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	div.wpcf7 input:not([type="checkbox"]),
+div.wpcf7 textarea {
+  width: 100%;
+}
+div.wpcf7 label {
+  display: block;
+}
+#wpcf7-f174-p24-o1 p:last-of-type {
+	text-align: center;
+	max-width: 100px;
+	margin: 0 auto;
+}
+main h2{
+	display: none;
+}
+.menu-icon {
+    z-index: 10;
+}
+
+header nav{
+	padding-bottom: 1rem;
+}
+@media screen and (max-width: 875px){
+	.nav-wrapper {
+    padding-top: 75px;
+}
+	.menu li:nth-child(3){
+		display:none;
+	}
+	.chloe-photo {
+		float: none;
+		margin: 0;
+		padding: 0;
+	}
+	.about-me-context {
+		float: none;
+		margin: 0;
+		padding: 0;
+	}
+	h2 {
+		text-align: center;
+	}
+	div.wpcf7 {
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+	.contact-image {
+		display: none;
+	}
+	.chloe-photo {
+		text-align: center;
+	}
+	.about-me-context {
+		margin: 1rem 2rem;
+	}
+	.logo2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 60px;
+	}
+	.wp-block-columns {
+		display: flex;
+		flex-direction: column;
+	}
+	.wp-block-columns div:nth-child(1){
+		order:1;
+		padding-bottom: 3rem;
+	}
+	.main-about-me
+	{
+		
+		padding-bottom: 3rem;
+	}
+	.image-about-me{
+		order:0!important;
+		padding-bottom:0px;
+	}
+	div.about>div.wp-block-columns .wp-container-core-columns-is-layout-1>div:nth-child(1) figure {
+		float: right;
+		width: 50%;
+	}
+	div.about>div.wp-block-columns .wp-container-core-columns-is-layout-1>div:nth-child(2) {
+		float: left;
+		width: 50%;
+	}
+	    .mobile-social {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+	.wp-block-spacer{
+		display: none;
+	}
+}
+*/
